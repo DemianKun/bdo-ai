@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\fingerprint]
+@="URL:Fingerprint Protocol"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\fingerprint\shell]
+
+[HKEY_CLASSES_ROOT\fingerprint\shell\open]
+
+[HKEY_CLASSES_ROOT\fingerprint\shell\open\command]
+@="\"C:\\xampp\\htdocs\\asistencia\\FingerprintEnrollApp.exe\" \"%1\""

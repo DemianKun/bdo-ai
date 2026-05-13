@@ -1,0 +1,8 @@
+{
+    "name": "asistencia/residencias",
+    "description": "Sistema de generación de cartas de residencias",
+    "type": "project",
+    "require": {
+        "mpdf/mpdf": "^8.2"
+    }
+}

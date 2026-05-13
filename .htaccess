@@ -1,0 +1,15 @@
+# Proteger archivos de configuración
+<Files "config.php">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+# Prevenir acceso directo a includes
+<Files "*.inc.php">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+# Proteger el directorio admin — mover a admin/.htaccess (ver admin/.htaccess)
+# <Directory> no está permitido en .htaccess a nivel de directorio
+# Si quieres protección, crea un archivo admin/.htaccess con las directivas de Auth
